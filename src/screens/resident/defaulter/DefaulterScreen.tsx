@@ -11,14 +11,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import commonStyles from '../../../commonStyles/commonStyles';
 import { RouteProp } from '@react-navigation/native';
 import { ResidentTabParamList } from '../../../requests/role-based-home-landing/navigation/ResidentHomeStack';
-import { RootStackParamList } from '../../../types/common';
-import { StackScreenProps } from '@react-navigation/stack';
 
 type DefaulterScreenRouteProp = RouteProp<ResidentTabParamList, 'Defaulter List'>;
-
-// interface Props {
-//   route: DefaulterScreenRouteProp;
-// }
 
 export type Defaulter = {
   id: number;
